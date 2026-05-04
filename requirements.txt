@@ -1,0 +1,10 @@
+torch>=2.0
+torchvision
+numpy
+scikit-image
+scikit-learn
+Pillow
+pyyaml
+tqdm
+matplotlib
+git+https://github.com/facebookresearch/segment-anything.git

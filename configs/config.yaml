@@ -1,0 +1,58 @@
+# LPG-SAM training config
+# -----------------------
+# Single source of truth for all hyperparameters. Pass to scripts as:
+#     python -m scripts.train --config configs/config.yaml
+#     python -m scripts.eval  --config configs/config.yaml --checkpoint checkpoints/best.pt
+
+# ----- paths -----
+paths:
+  # MedSAM ViT-B checkpoint. Download from the MedSAM repo.
+  sam_checkpoint: checkpoints/medsam_vit_b.pth
+  # Processed FIVES root (output of scripts/prepare_data.py + cache_frangi.py)
+  fives_root: data/processed/FIVES
+  # Where to save trained adapter weights and run logs
+  ckpt_dir: checkpoints
+  log_dir: runs
+
+# ----- model -----
+model:
+  # K=4 distilled prior tokens (replaces SAM's normal click prompts).
+  # Ablation candidates: 1, 4, 9.
+  num_tokens: 4
+
+# ----- data -----
+data:
+  # Conservative augmentation as agreed (flips + 90deg rotations).
+  augment_train: true
+  num_workers: 2          # Kaggle default; bump to 4 if you have RAM
+  pin_memory: true
+
+# ----- training -----
+train:
+  batch_size: 2           # safe for T4 (16 GB) at 1024x1024 with AMP
+  epochs: 50
+  lr: 1.0e-4              # AdamW. Higher than typical because adapter is small
+  weight_decay: 1.0e-4
+  amp: true               # mixed precision -- big VRAM win on CUDA, no-op on MPS/CPU
+  grad_clip: 1.0          # clip gradient norm to 1.0
+  seed: 42
+
+  # cosine LR schedule with linear warmup
+  warmup_epochs: 2
+
+# ----- loss weights -----
+loss:
+  lambda_dice: 0.5
+  lambda_bce: 0.5
+  lambda_cldice: 0.5   # was 0.3 — increased to penalise fragmentation harder
+  cldice_iter: 15      # was 10 — deeper skeletonisation = better connectivity gradients
+
+# ----- evaluation -----
+eval:
+  # Threshold applied to sigmoid(logits) to get binary masks for metrics.
+  binarize_threshold: 0.5
+  # Save prediction overlays for the first N test samples (set 0 to disable).
+  save_overlays: 8
+  # Morphological closing radius applied to binarized predictions (pixels).
+  # Bridges tiny gaps that cause over-fragmentation. 0 = disabled.
+  closing_radius: 2
