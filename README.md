@@ -1,5 +1,7 @@
 # LPG-SAM: Latent Prior Guidance for SAM
 
+All Datasets & Eval Results are available @ https://drive.google.com/drive/folders/1FPvKSpCeNkL8wYLByVJ3ccH-sBYVXY-7?usp=sharing
+
 **Zero-click retinal vessel segmentation via a 656K-parameter adapter over frozen MedSAM.**
 
 > Course project — CS 736: Medical Image Computing, IIT Bombay  
