@@ -2,7 +2,7 @@
 
 **Zero-click retinal vessel segmentation via a 656K-parameter adapter over frozen MedSAM.**
 
-> Course project — CS 726: Advanced Machine Learning, IIT Bombay  
+> Course project — CS 736: Medical Image Computing, IIT Bombay  
 > Sagnik Nandi (23B0905) · Rajat Das (23B0917)
 
 ---
