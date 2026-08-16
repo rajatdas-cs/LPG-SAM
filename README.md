@@ -15,15 +15,11 @@ Segment Anything Model (SAM) is a powerful foundation model for image segmentati
 
 LPG-SAM replaces those human prompts with a **Latent Prior Guidance adapter** trained to inject a Frangi vesselness prior directly into SAM's latent space. The result is a fully automatic, zero-click segmentation system that trains only **656K parameters** (0.69% of the 93.74M-parameter frozen backbone).
 
-```
-Frangi vesselness map  ──►  LatentPriorAdapter  ──►  FiLM modulation
-                                                  └──►  Prior tokens (×4)
-                                                             │
-Fundus image  ──►  Frozen MedSAM encoder  ──►  z_image  ─────┘
-                                                             │
-                                              Frozen decoder ▼
-                                                   Vessel mask
-```
+<p align="center">
+  <img src="docs/architecture.svg" alt="LPG-SAM architecture: a 656K adapter steering a frozen 94M model" width="100%">
+</p>
+
+<sub>Editable source: [`docs/architecture.excalidraw`](docs/architecture.excalidraw) — open at [excalidraw.com](https://excalidraw.com)</sub>
 
 ---
 
@@ -43,12 +39,21 @@ The adapter has four components, all trained end-to-end while every MedSAM weigh
 
 The α gate initialized to zero guarantees the adapter is a perfect identity at epoch 0 — training begins from the frozen MedSAM zero-shot baseline and learns to deviate from it progressively.
 
-**Frangi prior pipeline:**  
+**Frangi prior pipeline**
+
+<p align="center">
+  <img src="docs/frangi-prior.svg" alt="Frangi vesselness pipeline, computed once on CPU and cached" width="100%">
+</p>
+
 Green channel → FOV masking → inversion → CLAHE → multi-scale Frangi (σ∈{1–5}) → gamma compression (γ=0.3) → cached as `.npy`
 
 ---
 
 ## Results
+
+<p align="center">
+  <img src="docs/results.svg" alt="Results: in-distribution, zero-shot transfer, and the failure mode" width="100%">
+</p>
 
 ### FIVES In-Distribution (n=200 test images)
 
@@ -103,6 +108,7 @@ lpg-sam/
 ├── report/
 │   ├── report.pdf        # Full technical report
 │   └── slides.pdf        # Presentation slides
+├── docs/                 # README diagrams (.svg) + editable Excalidraw sources
 └── requirements.txt
 ```
 
