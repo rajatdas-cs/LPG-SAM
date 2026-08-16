@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1321" height="413" viewBox="32 -3 1321 413" font-family="Segoe Print, Bradley Hand, Chilanka, Comic Sans MS, cursive">
+<rect x="32" y="-3" width="1321" height="413" fill="#ffffff"/>
+<text x="210" y="45.9" font-size="22" fill="#1e1e1e" opacity="1.0">The Frangi prior  -  computed once on CPU, cached, never recomputed</text>
+<path d="M 73.6 89.2 L 191.3 89.1 Q 205.1 89.7 204.0 104.0 L 204.0 151.9 Q 204.1 165.1 190.8 166.7 L 73.2 165.4 Q 60.3 167.0 60.2 151.8 L 61.0 103.0 Q 60.8 89.5 73.2 89.2 Z" fill="#a5d8ff" stroke="none" opacity="1.0"/>
+<path d="M 73.6 89.2 L 191.3 89.1 Q 205.1 89.7 204.0 104.0 L 204.0 151.9 Q 204.1 165.1 190.8 166.7 L 73.2 165.4 Q 60.3 167.0 60.2 151.8 L 61.0 103.0 Q 60.8 89.5 73.2 89.2 Z" fill="none" stroke="#4a9eed" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 73.7 90.5 L 190.5 90.1 Q 205.2 89.8 205.1 103.3 L 204.3 151.5 Q 205.3 165.9 190.7 166.1 L 73.9 165.7 Q 60.5 166.3 59.6 152.1 L 60.0 104.6 Q 60.4 89.7 74.7 89.4 Z" fill="none" stroke="#4a9eed" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="132.5" y="123.5" font-size="15" fill="#1e1e1e" text-anchor="middle">Green</text>
+<text x="132.5" y="141.8" font-size="15" fill="#1e1e1e" text-anchor="middle">channel</text>
+<path d="M 206.9 128.4 L 244.5 128.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 245.0 128.0 L 233.1 122.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 245.0 128.0 L 233.1 133.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 258.0 90.4 L 376.6 90.2 Q 390.8 89.6 390.4 104.2 L 390.2 151.9 Q 390.7 167.0 375.9 166.4 L 258.0 166.4 Q 245.3 167.1 245.7 151.5 L 244.7 104.4 Q 243.9 89.9 258.3 89.2 Z" fill="#a5d8ff" stroke="none" opacity="1.0"/>
+<path d="M 258.0 90.4 L 376.6 90.2 Q 390.8 89.6 390.4 104.2 L 390.2 151.9 Q 390.7 167.0 375.9 166.4 L 258.0 166.4 Q 245.3 167.1 245.7 151.5 L 244.7 104.4 Q 243.9 89.9 258.3 89.2 Z" fill="none" stroke="#4a9eed" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 258.3 90.4 L 375.4 89.6 Q 389.8 90.6 389.4 103.9 L 390.1 152.6 Q 390.5 166.6 375.7 165.9 L 258.8 166.6 Q 245.7 165.5 244.5 151.6 L 244.6 104.0 Q 245.1 89.6 258.2 89.9 Z" fill="none" stroke="#4a9eed" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="317.5" y="123.5" font-size="15" fill="#1e1e1e" text-anchor="middle">FOV</text>
+<text x="317.5" y="141.8" font-size="15" fill="#1e1e1e" text-anchor="middle">mask</text>
+<path d="M 391.8 128.1 L 430.6 128.3" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 430.0 128.0 L 418.1 122.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 430.0 128.0 L 418.1 133.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 444.0 90.3 L 561.4 89.0 Q 575.9 90.6 575.8 104.7 L 574.8 151.8 Q 574.1 166.3 560.0 165.0 L 443.4 165.3 Q 429.6 165.0 428.9 151.2 L 429.1 103.7 Q 429.0 90.8 444.3 89.2 Z" fill="#a5d8ff" stroke="none" opacity="1.0"/>
+<path d="M 444.0 90.3 L 561.4 89.0 Q 575.9 90.6 575.8 104.7 L 574.8 151.8 Q 574.1 166.3 560.0 165.0 L 443.4 165.3 Q 429.6 165.0 428.9 151.2 L 429.1 103.7 Q 429.0 90.8 444.3 89.2 Z" fill="none" stroke="#4a9eed" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 443.6 89.8 L 560.8 89.4 Q 575.5 90.8 574.9 104.0 L 574.4 151.4 Q 574.8 165.6 561.5 165.5 L 443.3 166.7 Q 430.0 165.5 430.1 151.3 L 430.0 104.7 Q 430.6 90.3 443.6 89.8 Z" fill="none" stroke="#4a9eed" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="502.5" y="132.7" font-size="15" fill="#1e1e1e" text-anchor="middle">invert</text>
+<path d="M 576.5 128.4 L 615.0 128.4" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 615.0 128.0 L 603.1 122.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 615.0 128.0 L 603.1 133.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 628.6 89.4 L 746.7 91.1 Q 760.8 90.7 760.7 104.5 L 759.4 152.0 Q 759.7 165.0 745.0 165.5 L 628.5 166.4 Q 616.0 165.9 616.0 153.1 L 616.0 103.7 Q 614.4 89.4 628.3 89.3 Z" fill="#ffd8a8" stroke="none" opacity="1.0"/>
+<path d="M 628.6 89.4 L 746.7 91.1 Q 760.8 90.7 760.7 104.5 L 759.4 152.0 Q 759.7 165.0 745.0 165.5 L 628.5 166.4 Q 616.0 165.9 616.0 153.1 L 616.0 103.7 Q 614.4 89.4 628.3 89.3 Z" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 629.2 90.6 L 746.5 90.0 Q 760.2 90.5 759.4 104.2 L 760.6 152.4 Q 760.4 166.0 745.5 166.4 L 628.7 166.5 Q 615.7 165.8 614.8 152.7 L 615.3 103.5 Q 614.4 89.5 629.6 90.5 Z" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="687.5" y="123.5" font-size="15" fill="#1e1e1e" text-anchor="middle">CLAHE</text>
+<text x="687.5" y="141.8" font-size="15" fill="#1e1e1e" text-anchor="middle">clip 0.01</text>
+<path d="M 761.5 128.5 L 800.7 128.2" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 800.0 128.0 L 788.1 122.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 800.0 128.0 L 788.1 133.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 813.7 90.1 L 930.2 88.9 Q 946.0 90.3 945.1 105.0 L 944.9 152.8 Q 945.7 165.4 930.5 165.5 L 813.4 166.2 Q 799.5 165.8 799.2 152.9 L 799.7 103.9 Q 800.2 90.9 813.8 90.9 Z" fill="#ffd8a8" stroke="none" opacity="1.0"/>
+<path d="M 813.7 90.1 L 930.2 88.9 Q 946.0 90.3 945.1 105.0 L 944.9 152.8 Q 945.7 165.4 930.5 165.5 L 813.4 166.2 Q 799.5 165.8 799.2 152.9 L 799.7 103.9 Q 800.2 90.9 813.8 90.9 Z" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 814.0 90.0 L 931.0 89.3 Q 944.9 89.5 944.2 104.5 L 944.5 152.0 Q 945.3 166.1 930.7 166.0 L 814.1 166.4 Q 799.4 166.1 799.6 151.7 L 800.4 104.0 Q 800.1 90.4 814.6 89.9 Z" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="872.5" y="123.5" font-size="15" fill="#1e1e1e" text-anchor="middle">Frangi</text>
+<text x="872.5" y="141.8" font-size="15" fill="#1e1e1e" text-anchor="middle">sigma 1-5</text>
+<path d="M 947.2 128.0 L 985.0 128.3" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 985.0 128.0 L 973.1 122.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 985.0 128.0 L 973.1 133.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 998.9 90.1 L 1116.0 91.0 Q 1130.4 90.8 1131.0 103.5 L 1130.1 153.0 Q 1130.7 165.2 1115.2 165.9 L 998.1 165.4 Q 984.1 166.4 985.6 152.9 L 984.2 104.5 Q 985.4 89.2 999.8 91.0 Z" fill="#ffd8a8" stroke="none" opacity="1.0"/>
+<path d="M 998.9 90.1 L 1116.0 91.0 Q 1130.4 90.8 1131.0 103.5 L 1130.1 153.0 Q 1130.7 165.2 1115.2 165.9 L 998.1 165.4 Q 984.1 166.4 985.6 152.9 L 984.2 104.5 Q 985.4 89.2 999.8 91.0 Z" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 998.6 90.7 L 1115.8 90.0 Q 1130.8 90.5 1129.5 103.9 L 1130.0 151.8 Q 1129.5 165.7 1116.3 165.3 L 999.1 165.9 Q 984.3 165.7 985.2 152.0 L 984.3 104.7 Q 985.4 90.7 998.4 89.6 Z" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="1057.5" y="123.5" font-size="15" fill="#1e1e1e" text-anchor="middle">gamma</text>
+<text x="1057.5" y="141.8" font-size="15" fill="#1e1e1e" text-anchor="middle">0.3</text>
+<path d="M 1131.4 128.4 L 1167.7 127.5" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1168.0 128.0 L 1156.1 122.7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 1168.0 128.0 L 1156.1 133.3" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 1183.8 90.9 L 1311.7 89.5 Q 1324.2 90.9 1325.2 104.4 L 1324.1 151.0 Q 1325.4 165.8 1310.1 167.0 L 1184.3 166.7 Q 1169.1 166.8 1169.0 152.8 L 1169.9 103.6 Q 1170.1 90.9 1183.5 89.2 Z" fill="#b2f2bb" stroke="none" opacity="1.0"/>
+<path d="M 1183.8 90.9 L 1311.7 89.5 Q 1324.2 90.9 1325.2 104.4 L 1324.1 151.0 Q 1325.4 165.8 1310.1 167.0 L 1184.3 166.7 Q 1169.1 166.8 1169.0 152.8 L 1169.9 103.6 Q 1170.1 90.9 1183.5 89.2 Z" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1184.0 89.6 L 1310.4 89.5 Q 1324.3 89.5 1324.7 103.7 L 1325.4 151.7 Q 1325.0 165.5 1310.8 165.3 L 1183.6 165.3 Q 1170.4 166.1 1169.5 152.0 L 1170.7 103.4 Q 1170.5 89.9 1184.0 90.5 Z" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="1247.5" y="123.5" font-size="15" fill="#1e1e1e" text-anchor="middle">vesselness</text>
+<text x="1247.5" y="141.8" font-size="15" fill="#1e1e1e" text-anchor="middle">.npy cache</text>
+<text x="60" y="214.2" font-size="15" fill="#1e1e1e" opacity="1.0">The prior is a hand-built filter, not a learned module - so it costs nothing at inference</text>
+<text x="60" y="233.0" font-size="15" fill="#1e1e1e" opacity="1.0">and carries no dataset bias of its own. It is a strong hypothesis about where vessels are,</text>
+<text x="60" y="264.2" font-size="15" fill="#1e1e1e" opacity="1.0">and a poor segmenter on its own: clDice 0.284 at its best threshold, with the vessel tree</text>
+<text x="60" y="283.0" font-size="15" fill="#1e1e1e" opacity="1.0">shattered into roughly 4,900 components per image. The adapter is what turns one into the other.</text>
+<path d="M 73.8 320.0 L 386.4 321.1 Q 399.7 320.7 400.5 334.3 L 399.8 367.7 Q 399.0 381.2 385.1 382.5 L 73.5 381.3 Q 59.1 382.8 60.8 368.4 L 59.5 333.4 Q 59.5 319.9 73.2 319.9 Z" fill="#ffc9c9" stroke="none" opacity="1.0"/>
+<path d="M 73.8 320.0 L 386.4 321.1 Q 399.7 320.7 400.5 334.3 L 399.8 367.7 Q 399.0 381.2 385.1 382.5 L 73.5 381.3 Q 59.1 382.8 60.8 368.4 L 59.5 333.4 Q 59.5 319.9 73.2 319.9 Z" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 73.6 320.7 L 386.7 320.1 Q 399.6 320.7 399.7 333.8 L 399.2 367.8 Q 400.0 382.0 385.5 382.0 L 73.2 381.6 Q 59.4 381.8 59.3 367.3 L 59.7 333.6 Q 60.1 320.0 74.4 320.2 Z" fill="none" stroke="#ef4444" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="230.0" y="346.5" font-size="15" fill="#1e1e1e" text-anchor="middle">Frangi alone</text>
+<text x="230.0" y="364.8" font-size="15" fill="#1e1e1e" text-anchor="middle">clDice 0.284 B0 err 4872</text>
+<path d="M 406.3 351.5 L 497.8 350.8" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 498.0 351.0 L 486.1 345.7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 498.0 351.0 L 486.1 356.3" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<rect x="421.5" y="339.1" width="60.9" height="18.9" fill="#ffffff"/>
+<text x="452.0" y="355.8" font-size="14" fill="#22c55e" text-anchor="middle">adapter</text>
+<path d="M 519.1 319.2 L 830.5 320.3 Q 843.0 320.7 844.9 334.3 L 844.5 368.7 Q 843.2 382.1 830.0 382.7 L 518.7 382.7 Q 504.2 382.9 504.4 368.4 L 503.4 333.0 Q 503.2 319.7 517.1 320.7 Z" fill="#b2f2bb" stroke="none" opacity="1.0"/>
+<path d="M 519.1 319.2 L 830.5 320.3 Q 843.0 320.7 844.9 334.3 L 844.5 368.7 Q 843.2 382.1 830.0 382.7 L 518.7 382.7 Q 504.2 382.9 504.4 368.4 L 503.4 333.0 Q 503.2 319.7 517.1 320.7 Z" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 518.1 320.2 L 830.2 320.3 Q 844.0 319.2 844.5 334.4 L 844.0 368.1 Q 844.2 381.3 830.4 381.6 L 517.3 381.6 Q 504.4 381.5 504.4 368.7 L 504.0 333.8 Q 504.0 320.3 518.4 320.2 Z" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="674.0" y="346.5" font-size="15" fill="#1e1e1e" text-anchor="middle">LPG-SAM</text>
+<text x="674.0" y="364.8" font-size="15" fill="#1e1e1e" text-anchor="middle">clDice 0.829 B0 err 85</text>
+</svg>

@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1176" height="776" viewBox="22 2 1176 776" font-family="Segoe Print, Bradley Hand, Chilanka, Comic Sans MS, cursive">
+<rect x="22" y="2" width="1176" height="776" fill="#ffffff"/>
+<text x="300" y="54.7" font-size="26" fill="#1e1e1e" opacity="1.0">LPG-SAM  -  a 656K adapter steering a frozen 94M model</text>
+<text x="330" y="80.2" font-size="17" fill="#757575" opacity="1.0">zero-click retinal vessel segmentation</text>
+<path d="M 63.6 99.2 L 1156.3 99.1 Q 1170.1 99.7 1169.0 114.0 L 1169.0 415.9 Q 1169.1 429.1 1155.8 430.7 L 63.2 429.4 Q 50.3 431.0 50.2 415.8 L 51.0 113.0 Q 50.8 99.5 63.2 99.2 Z" fill="#dbe4ff" stroke="none" opacity="0.3"/>
+<path d="M 63.6 99.2 L 1156.3 99.1 Q 1170.1 99.7 1169.0 114.0 L 1169.0 415.9 Q 1169.1 429.1 1155.8 430.7 L 63.2 429.4 Q 50.3 431.0 50.2 415.8 L 51.0 113.0 Q 50.8 99.5 63.2 99.2 Z" fill="none" stroke="#4a9eed" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+<path d="M 63.7 100.5 L 1155.5 100.1 Q 1170.2 99.8 1170.1 113.3 L 1169.3 415.5 Q 1170.3 429.9 1155.7 430.1 L 63.9 429.7 Q 50.5 430.3 49.6 416.1 L 50.0 114.6 Q 50.4 99.7 64.7 99.4 Z" fill="none" stroke="#4a9eed" stroke-width="0.8" stroke-linecap="round" opacity="0.165"/>
+<text x="70" y="130.1" font-size="19" fill="#2563eb" opacity="1.0">1. ONE FORWARD PASS  -  the backbone never moves</text>
+<path d="M 93.8 165.6 L 215.2 165.0 Q 229.0 165.4 230.6 179.2 L 230.8 212.6 Q 230.4 227.2 216.2 226.9 L 94.7 228.0 Q 79.9 227.4 79.0 213.4 L 80.3 180.1 Q 80.7 164.5 93.7 165.4 Z" fill="#a5d8ff" stroke="none" opacity="1.0"/>
+<path d="M 93.8 165.6 L 215.2 165.0 Q 229.0 165.4 230.6 179.2 L 230.8 212.6 Q 230.4 227.2 216.2 226.9 L 94.7 228.0 Q 79.9 227.4 79.0 213.4 L 80.3 180.1 Q 80.7 164.5 93.7 165.4 Z" fill="none" stroke="#4a9eed" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 93.3 164.9 L 215.5 164.4 Q 229.3 165.4 229.4 178.6 L 229.8 213.6 Q 229.4 226.9 216.1 227.6 L 94.5 227.6 Q 79.7 226.9 79.8 213.6 L 80.7 178.5 Q 79.5 164.6 93.6 165.0 Z" fill="none" stroke="#4a9eed" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="155.0" y="191.5" font-size="15" fill="#1e1e1e" text-anchor="middle">Fundus image</text>
+<text x="155.0" y="209.8" font-size="15" fill="#1e1e1e" text-anchor="middle">1024 x 1024</text>
+<path d="M 232.1 195.7 L 287.3 195.9" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 288.0 196.0 L 276.1 190.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 288.0 196.0 L 276.1 201.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 305.7 155.1 L 484.0 155.4 Q 497.0 155.3 497.4 168.0 L 497.9 223.6 Q 497.8 237.7 482.8 236.8 L 305.1 237.3 Q 291.0 236.0 291.4 222.3 L 291.6 168.0 Q 290.9 154.2 305.1 154.7 Z" fill="#e9ecef" stroke="none" opacity="1.0"/>
+<path d="M 305.7 155.1 L 484.0 155.4 Q 497.0 155.3 497.4 168.0 L 497.9 223.6 Q 497.8 237.7 482.8 236.8 L 305.1 237.3 Q 291.0 236.0 291.4 222.3 L 291.6 168.0 Q 290.9 154.2 305.1 154.7 Z" fill="none" stroke="#757575" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 305.3 155.6 L 483.2 154.5 Q 496.6 154.8 496.8 168.4 L 497.5 223.8 Q 496.9 237.0 482.4 236.4 L 305.8 236.6 Q 292.5 236.5 291.3 223.7 L 292.0 168.5 Q 292.1 154.3 306.0 155.7 Z" fill="none" stroke="#757575" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="394.5" y="191.5" font-size="15" fill="#1e1e1e" text-anchor="middle">MedSAM ViT-B encoder</text>
+<text x="394.5" y="209.8" font-size="15" fill="#1e1e1e" text-anchor="middle">FROZEN 93.74M</text>
+<path d="M 499.5 196.3 L 546.7 195.8" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 547.0 196.0 L 535.1 190.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 547.0 196.0 L 535.1 201.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 562.3 165.6 L 655.1 165.6 Q 668.6 164.4 669.7 180.1 L 669.8 213.7 Q 669.7 227.5 654.4 227.0 L 562.7 226.0 Q 548.0 226.5 548.5 213.4 L 550.0 178.9 Q 550.0 166.1 564.0 164.7 Z" fill="#c3fae8" stroke="none" opacity="1.0"/>
+<path d="M 562.3 165.6 L 655.1 165.6 Q 668.6 164.4 669.7 180.1 L 669.8 213.7 Q 669.7 227.5 654.4 227.0 L 562.7 226.0 Q 548.0 226.5 548.5 213.4 L 550.0 178.9 Q 550.0 166.1 564.0 164.7 Z" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 562.6 164.6 L 654.5 164.5 Q 669.2 165.6 669.5 179.0 L 669.2 213.5 Q 668.4 227.2 655.6 227.4 L 563.4 227.0 Q 548.5 227.4 548.7 213.5 L 549.7 178.8 Q 548.8 165.7 563.3 164.5 Z" fill="none" stroke="#06b6d4" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="609.0" y="191.5" font-size="15" fill="#1e1e1e" text-anchor="middle">z</text>
+<text x="609.0" y="209.8" font-size="15" fill="#1e1e1e" text-anchor="middle">256x64x64</text>
+<path d="M 93.2 299.2 L 216.9 300.7 Q 229.2 300.7 231.1 314.3 L 229.7 348.1 Q 229.2 360.9 217.0 362.3 L 94.1 363.0 Q 79.9 362.8 80.7 347.4 L 79.5 313.5 Q 79.4 300.2 93.5 299.8 Z" fill="#ffd8a8" stroke="none" opacity="1.0"/>
+<path d="M 93.2 299.2 L 216.9 300.7 Q 229.2 300.7 231.1 314.3 L 229.7 348.1 Q 229.2 360.9 217.0 362.3 L 94.1 363.0 Q 79.9 362.8 80.7 347.4 L 79.5 313.5 Q 79.4 300.2 93.5 299.8 Z" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 93.4 300.6 L 215.8 299.9 Q 230.1 300.6 229.9 314.6 L 230.0 348.0 Q 230.0 361.3 215.9 361.5 L 93.2 362.5 Q 79.5 362.0 80.3 348.1 L 79.7 314.0 Q 80.1 300.4 93.4 300.1 Z" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="155.0" y="326.5" font-size="15" fill="#1e1e1e" text-anchor="middle">Frangi map</text>
+<text x="155.0" y="344.8" font-size="15" fill="#1e1e1e" text-anchor="middle">cached .npy</text>
+<path d="M 231.6 330.7 L 288.4 331.0" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 288.0 331.0 L 276.1 325.7" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 288.0 331.0 L 276.1 336.3" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 306.1 290.6 L 483.9 289.9 Q 497.2 290.0 497.0 304.4 L 496.9 358.1 Q 497.0 373.0 483.4 372.8 L 307.0 371.5 Q 292.1 373.0 292.7 357.2 L 291.2 303.9 Q 291.1 289.4 305.1 290.4 Z" fill="#b2f2bb" stroke="none" opacity="1.0"/>
+<path d="M 306.1 290.6 L 483.9 289.9 Q 497.2 290.0 497.0 304.4 L 496.9 358.1 Q 497.0 373.0 483.4 372.8 L 307.0 371.5 Q 292.1 373.0 292.7 357.2 L 291.2 303.9 Q 291.1 289.4 305.1 290.4 Z" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 306.4 290.6 L 482.5 290.3 Q 497.2 289.5 497.6 304.7 L 496.6 358.7 Q 496.8 372.0 483.8 372.5 L 305.5 371.9 Q 292.0 371.8 291.5 357.7 L 292.3 303.3 Q 292.1 289.9 305.3 289.7 Z" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="394.5" y="326.5" font-size="15" fill="#1e1e1e" text-anchor="middle">PriorProjector</text>
+<text x="394.5" y="344.8" font-size="15" fill="#1e1e1e" text-anchor="middle">TRAINED 598K</text>
+<path d="M 499.2 315.0 L 546.4 295.7" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 547.0 295.0 L 534.0 294.7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 547.0 295.0 L 538.1 304.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 499.4 345.7 L 546.4 362.7" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 547.0 363.0 L 537.7 353.9" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 547.0 363.0 L 534.0 363.8" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 562.0 265.6 L 654.5 264.2 Q 668.8 265.9 669.7 278.5 L 668.2 303.9 Q 669.2 317.4 654.1 316.0 L 563.4 316.8 Q 548.1 318.0 549.3 303.7 L 548.1 279.8 Q 548.0 265.8 562.9 264.6 Z" fill="#b2f2bb" stroke="none" opacity="1.0"/>
+<path d="M 562.0 265.6 L 654.5 264.2 Q 668.8 265.9 669.7 278.5 L 668.2 303.9 Q 669.2 317.4 654.1 316.0 L 563.4 316.8 Q 548.1 318.0 549.3 303.7 L 548.1 279.8 Q 548.0 265.8 562.9 264.6 Z" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 563.1 265.7 L 654.6 264.4 Q 669.0 264.6 668.4 278.5 L 668.3 302.5 Q 668.7 316.7 655.4 316.7 L 563.0 316.5 Q 548.8 316.3 548.6 302.3 L 549.4 279.1 Q 548.5 265.0 563.7 264.4 Z" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="609.0" y="286.8" font-size="14" fill="#1e1e1e" text-anchor="middle">FiLM head</text>
+<text x="609.0" y="303.9" font-size="14" fill="#1e1e1e" text-anchor="middle">gamma, beta</text>
+<path d="M 563.7 334.9 L 655.0 335.7 Q 668.8 335.0 669.4 350.1 L 668.7 373.7 Q 669.5 387.3 654.8 386.7 L 562.0 386.2 Q 548.1 387.5 548.5 372.3 L 548.1 349.8 Q 549.8 335.4 562.5 334.4 Z" fill="#b2f2bb" stroke="none" opacity="1.0"/>
+<path d="M 563.7 334.9 L 655.0 335.7 Q 668.8 335.0 669.4 350.1 L 668.7 373.7 Q 669.5 387.3 654.8 386.7 L 562.0 386.2 Q 548.1 387.5 548.5 372.3 L 548.1 349.8 Q 549.8 335.4 562.5 334.4 Z" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 562.7 334.9 L 654.5 334.9 Q 668.6 335.7 669.7 349.1 L 668.6 373.7 Q 668.7 386.8 654.2 386.8 L 563.0 387.0 Q 548.5 387.0 548.2 372.6 L 548.4 348.8 Q 548.3 334.3 562.7 334.6 Z" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="609.0" y="356.8" font-size="14" fill="#1e1e1e" text-anchor="middle">Token head</text>
+<text x="609.0" y="373.9" font-size="14" fill="#1e1e1e" text-anchor="middle">4 tokens</text>
+<path d="M 671.1 196.0 L 713.4 196.2" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 713.0 196.0 L 701.1 190.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 713.0 196.0 L 701.1 201.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 671.3 291.5 L 712.8 230.8" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 713.0 231.0 L 701.9 237.7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 713.0 231.0 L 710.5 243.8" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 730.1 159.2 L 896.5 160.3 Q 909.0 160.7 910.9 174.3 L 910.5 218.7 Q 909.2 232.1 896.0 232.7 L 729.7 232.7 Q 715.2 232.9 715.4 218.4 L 714.4 173.0 Q 714.2 159.7 728.1 160.7 Z" fill="#d0bfff" stroke="none" opacity="1.0"/>
+<path d="M 730.1 159.2 L 896.5 160.3 Q 909.0 160.7 910.9 174.3 L 910.5 218.7 Q 909.2 232.1 896.0 232.7 L 729.7 232.7 Q 715.2 232.9 715.4 218.4 L 714.4 173.0 Q 714.2 159.7 728.1 160.7 Z" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 729.1 160.2 L 896.2 160.3 Q 910.0 159.2 910.5 174.4 L 910.0 218.1 Q 910.2 231.3 896.4 231.6 L 728.3 231.6 Q 715.4 231.5 715.4 218.7 L 715.0 173.8 Q 715.0 160.3 729.4 160.2 Z" fill="none" stroke="#8b5cf6" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="812.5" y="191.5" font-size="15" fill="#1e1e1e" text-anchor="middle">z_mod = z + alpha</text>
+<text x="812.5" y="209.8" font-size="15" fill="#1e1e1e" text-anchor="middle">(gamma . z + beta)</text>
+<path d="M 671.2 360.4 L 837.5 233.7" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 838.0 234.0 L 825.3 237.0" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 838.0 234.0 L 831.8 245.4" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 912.3 195.7 L 960.1 195.3" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 960.0 196.0 L 948.1 190.7" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 960.0 196.0 L 948.1 201.3" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 973.0 154.5 L 1111.4 155.4 Q 1125.4 154.5 1125.0 168.9 L 1124.9 222.2 Q 1125.9 236.3 1112.1 238.0 L 972.9 236.9 Q 960.7 238.0 959.9 222.5 L 959.4 170.0 Q 959.4 155.2 973.2 155.1 Z" fill="#e9ecef" stroke="none" opacity="1.0"/>
+<path d="M 973.0 154.5 L 1111.4 155.4 Q 1125.4 154.5 1125.0 168.9 L 1124.9 222.2 Q 1125.9 236.3 1112.1 238.0 L 972.9 236.9 Q 960.7 238.0 959.9 222.5 L 959.4 170.0 Q 959.4 155.2 973.2 155.1 Z" fill="none" stroke="#757575" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 974.7 154.4 L 1111.5 155.0 Q 1125.6 155.3 1124.6 169.6 L 1125.0 222.3 Q 1124.2 237.0 1110.9 236.7 L 973.4 236.8 Q 959.7 237.5 959.2 223.4 L 960.5 168.4 Q 960.7 155.3 974.6 154.7 Z" fill="none" stroke="#757575" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="1042.5" y="191.5" font-size="15" fill="#1e1e1e" text-anchor="middle">Mask decoder</text>
+<text x="1042.5" y="209.8" font-size="15" fill="#1e1e1e" text-anchor="middle">FROZEN</text>
+<path d="M 1041.8 238.9 L 1042.7 285.1" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1042.0 285.0 L 1047.3 273.1" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 1042.0 285.0 L 1036.7 273.1" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 973.7 284.8 L 1110.5 284.0 Q 1124.1 285.7 1124.5 300.0 L 1124.4 332.5 Q 1125.0 346.3 1110.7 348.0 L 974.8 347.7 Q 960.3 347.9 961.0 333.1 L 960.5 298.0 Q 960.5 284.9 974.6 285.3 Z" fill="#b2f2bb" stroke="none" opacity="1.0"/>
+<path d="M 973.7 284.8 L 1110.5 284.0 Q 1124.1 285.7 1124.5 300.0 L 1124.4 332.5 Q 1125.0 346.3 1110.7 348.0 L 974.8 347.7 Q 960.3 347.9 961.0 333.1 L 960.5 298.0 Q 960.5 284.9 974.6 285.3 Z" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 973.7 284.3 L 1111.7 284.4 Q 1125.0 284.8 1124.7 299.4 L 1125.7 332.6 Q 1125.2 346.7 1111.1 346.8 L 973.5 346.5 Q 959.6 347.6 960.0 332.6 L 960.6 299.8 Q 959.9 284.4 973.5 284.4 Z" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="1042.5" y="321.0" font-size="16" fill="#1e1e1e" text-anchor="middle">Vessel mask</text>
+<text x="549" y="411.3" font-size="14" fill="#15803d" opacity="1.0">4 prior tokens replace the click / box prompt</text>
+<path d="M 63.7 449.1 L 580.4 449.5 Q 595.2 450.9 595.5 463.8 L 594.8 736.1 Q 594.7 749.6 580.0 749.5 L 65.0 749.2 Q 50.0 750.3 50.8 735.4 L 49.5 463.4 Q 49.8 449.9 65.0 450.8 Z" fill="#e5dbff" stroke="none" opacity="0.3"/>
+<path d="M 63.7 449.1 L 580.4 449.5 Q 595.2 450.9 595.5 463.8 L 594.8 736.1 Q 594.7 749.6 580.0 749.5 L 65.0 749.2 Q 50.0 750.3 50.8 735.4 L 49.5 463.4 Q 49.8 449.9 65.0 450.8 Z" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+<path d="M 64.6 449.3 L 580.3 450.3 Q 595.6 450.0 595.1 463.2 L 594.8 736.7 Q 595.5 750.5 581.7 749.6 L 63.4 749.5 Q 50.0 750.3 50.7 736.3 L 50.2 464.4 Q 49.9 450.1 63.3 450.4 Z" fill="none" stroke="#8b5cf6" stroke-width="0.8" stroke-linecap="round" opacity="0.165"/>
+<text x="70" y="480.1" font-size="19" fill="#6d28d9" opacity="1.0">2. ALPHA STARTS AT ZERO</text>
+<text x="70" y="502.2" font-size="15" fill="#757575" opacity="1.0">the adapter begins as an exact identity</text>
+<path d="M 93.4 520.9 L 211.3 519.6 Q 224.2 519.5 225.3 534.4 L 224.1 573.1 Q 225.1 588.2 210.8 587.4 L 94.2 586.9 Q 79.6 587.9 81.0 574.3 L 80.8 533.9 Q 79.4 519.4 95.0 520.5 Z" fill="#e9ecef" stroke="none" opacity="1.0"/>
+<path d="M 93.4 520.9 L 211.3 519.6 Q 224.2 519.5 225.3 534.4 L 224.1 573.1 Q 225.1 588.2 210.8 587.4 L 94.2 586.9 Q 79.6 587.9 81.0 574.3 L 80.8 533.9 Q 79.4 519.4 95.0 520.5 Z" fill="none" stroke="#757575" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 93.7 519.3 L 211.0 520.3 Q 224.9 519.6 225.3 534.7 L 224.6 573.3 Q 224.8 587.9 211.3 587.5 L 94.5 588.4 Q 80.0 587.5 80.7 573.7 L 80.5 533.6 Q 79.6 520.4 93.7 520.7 Z" fill="none" stroke="#757575" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="152.5" y="549.5" font-size="15" fill="#1e1e1e" text-anchor="middle">epoch 0</text>
+<text x="152.5" y="567.8" font-size="15" fill="#1e1e1e" text-anchor="middle">alpha = 0.009</text>
+<path d="M 227.0 553.6 L 276.6 553.9" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 277.0 554.0 L 265.1 548.7" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 277.0 554.0 L 265.1 559.3" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<rect x="229.1" y="542.1" width="45.8" height="18.9" fill="#ffffff"/>
+<text x="252.0" y="558.8" font-size="14" fill="#8b5cf6" text-anchor="middle">train</text>
+<path d="M 311.4 521.0 L 427.2 519.8 Q 441.4 521.0 441.2 533.0 L 441.0 573.8 Q 442.9 588.8 428.5 589.1 L 311.9 587.6 Q 296.3 589.0 297.5 573.0 L 297.4 533.7 Q 296.7 519.6 310.3 518.9 Z" fill="#d0bfff" stroke="none" opacity="1.0"/>
+<path d="M 311.4 521.0 L 427.2 519.8 Q 441.4 521.0 441.2 533.0 L 441.0 573.8 Q 442.9 588.8 428.5 589.1 L 311.9 587.6 Q 296.3 589.0 297.5 573.0 L 297.4 533.7 Q 296.7 519.6 310.3 518.9 Z" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 310.7 519.8 L 428.7 519.4 Q 442.7 519.5 441.8 534.5 L 442.5 573.9 Q 441.3 588.0 427.8 588.6 L 310.5 587.8 Q 297.6 587.3 296.9 574.5 L 297.4 533.3 Q 296.3 519.3 311.6 519.6 Z" fill="none" stroke="#8b5cf6" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="369.5" y="549.5" font-size="15" fill="#1e1e1e" text-anchor="middle">epoch 5</text>
+<text x="369.5" y="567.8" font-size="15" fill="#1e1e1e" text-anchor="middle">alpha = 0.091</text>
+<path d="M 444.3 554.6 L 487.8 553.7" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 488.0 554.0 L 476.1 548.7" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 488.0 554.0 L 476.1 559.3" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 505.0 512.3 L 565.5 512.5 Q 579.6 511.5 578.9 526.6 L 580.9 582.3 Q 581.0 595.0 565.4 595.9 L 505.0 597.0 Q 489.8 595.5 489.8 582.0 L 490.9 525.3 Q 490.7 512.5 504.7 512.6 Z" fill="#b2f2bb" stroke="none" opacity="1.0"/>
+<path d="M 505.0 512.3 L 565.5 512.5 Q 579.6 511.5 578.9 526.6 L 580.9 582.3 Q 581.0 595.0 565.4 595.9 L 505.0 597.0 Q 489.8 595.5 489.8 582.0 L 490.9 525.3 Q 490.7 512.5 504.7 512.6 Z" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 504.2 511.7 L 565.7 511.8 Q 580.4 511.4 579.5 526.4 L 579.6 581.3 Q 579.3 596.1 565.7 596.7 L 504.6 596.8 Q 489.6 595.4 489.4 582.0 L 490.3 525.9 Q 489.6 511.9 504.2 512.3 Z" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="535.0" y="549.5" font-size="15" fill="#1e1e1e" text-anchor="middle">best</text>
+<text x="535.0" y="567.8" font-size="15" fill="#1e1e1e" text-anchor="middle">0.178</text>
+<text x="80" y="629.2" font-size="15" fill="#1e1e1e" opacity="1.0">z_mod = z at init, so training starts from the</text>
+<text x="80" y="648.0" font-size="15" fill="#1e1e1e" opacity="1.0">frozen MedSAM baseline and departs only as</text>
+<text x="80" y="666.8" font-size="15" fill="#1e1e1e" opacity="1.0">far as the loss justifies. No warm-up hacks.</text>
+<path d="M 94.5 685.8 L 566.4 684.2 Q 580.7 684.5 580.1 698.7 L 580.5 714.3 Q 579.4 728.4 565.2 729.8 L 94.2 728.6 Q 79.8 730.1 80.0 714.4 L 80.7 699.3 Q 81.1 684.1 93.9 685.7 Z" fill="#fff3bf" stroke="none" opacity="1.0"/>
+<path d="M 94.5 685.8 L 566.4 684.2 Q 580.7 684.5 580.1 698.7 L 580.5 714.3 Q 579.4 728.4 565.2 729.8 L 94.2 728.6 Q 79.8 730.1 80.0 714.4 L 80.7 699.3 Q 81.1 684.1 93.9 685.7 Z" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 94.5 685.6 L 565.3 684.7 Q 579.4 684.5 580.7 699.1 L 580.7 714.8 Q 580.6 728.9 565.6 729.4 L 94.7 728.4 Q 80.1 729.2 79.6 714.8 L 79.4 698.5 Q 79.6 685.2 94.2 684.5 Z" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="330.0" y="711.6" font-size="15" fill="#1e1e1e" text-anchor="middle">val clDice 0.090 -&gt; 0.831 in 5 epochs -&gt; 0.871 at epoch 26</text>
+<path d="M 637.9 449.6 L 1156.4 449.3 Q 1169.6 449.3 1170.6 464.1 L 1169.0 735.1 Q 1169.8 750.1 1156.3 749.1 L 638.3 750.4 Q 624.8 749.5 624.6 737.0 L 624.6 464.1 Q 624.7 449.8 639.8 451.1 Z" fill="#d3f9d8" stroke="none" opacity="0.3"/>
+<path d="M 637.9 449.6 L 1156.4 449.3 Q 1169.6 449.3 1170.6 464.1 L 1169.0 735.1 Q 1169.8 750.1 1156.3 749.1 L 638.3 750.4 Q 624.8 749.5 624.6 737.0 L 624.6 464.1 Q 624.7 449.8 639.8 451.1 Z" fill="none" stroke="#22c55e" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+<path d="M 638.8 449.5 L 1156.4 449.5 Q 1169.2 450.6 1169.9 464.5 L 1169.9 736.6 Q 1169.9 749.5 1155.3 750.1 L 639.2 750.6 Q 624.4 750.2 624.8 736.0 L 624.5 463.7 Q 625.0 450.7 638.4 450.0 Z" fill="none" stroke="#22c55e" stroke-width="0.8" stroke-linecap="round" opacity="0.165"/>
+<text x="645" y="480.1" font-size="19" fill="#15803d" opacity="1.0">3. THE LOSS BUYS TOPOLOGY</text>
+<text x="645" y="502.2" font-size="15" fill="#757575" opacity="1.0">pixels agree, but vessels must stay connected</text>
+<path d="M 669.7 521.0 L 790.3 519.2 Q 806.0 521.0 805.0 533.0 L 805.9 561.8 Q 805.9 576.3 791.7 575.3 L 669.6 575.4 Q 654.8 576.8 655.7 561.3 L 654.4 533.8 Q 655.0 519.7 668.2 519.4 Z" fill="#a5d8ff" stroke="none" opacity="1.0"/>
+<path d="M 669.7 521.0 L 790.3 519.2 Q 806.0 521.0 805.0 533.0 L 805.9 561.8 Q 805.9 576.3 791.7 575.3 L 669.6 575.4 Q 654.8 576.8 655.7 561.3 L 654.4 533.8 Q 655.0 519.7 668.2 519.4 Z" fill="none" stroke="#4a9eed" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 669.3 520.6 L 790.3 520.1 Q 805.4 519.3 805.5 533.4 L 805.2 562.1 Q 805.2 575.7 790.9 576.1 L 668.9 576.2 Q 654.9 575.9 654.3 562.2 L 655.0 533.6 Q 655.4 520.4 668.9 519.5 Z" fill="none" stroke="#4a9eed" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="730.0" y="553.0" font-size="16" fill="#1e1e1e" text-anchor="middle">Dice</text>
+<path d="M 828.9 519.1 L 950.2 519.8 Q 964.1 519.9 965.0 533.0 L 965.3 561.1 Q 965.5 576.6 951.0 575.0 L 829.0 575.7 Q 816.0 575.2 815.8 563.1 L 815.5 534.7 Q 814.3 521.1 829.0 521.0 Z" fill="#a5d8ff" stroke="none" opacity="1.0"/>
+<path d="M 828.9 519.1 L 950.2 519.8 Q 964.1 519.9 965.0 533.0 L 965.3 561.1 Q 965.5 576.6 951.0 575.0 L 829.0 575.7 Q 816.0 575.2 815.8 563.1 L 815.5 534.7 Q 814.3 521.1 829.0 521.0 Z" fill="none" stroke="#4a9eed" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 829.6 519.5 L 951.4 520.7 Q 964.3 519.8 965.4 533.5 L 965.6 561.7 Q 965.5 575.5 951.0 576.6 L 828.6 575.6 Q 815.0 575.7 814.3 561.5 L 814.5 534.7 Q 815.3 520.6 828.5 520.4 Z" fill="none" stroke="#4a9eed" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="890.0" y="553.0" font-size="16" fill="#1e1e1e" text-anchor="middle">BCE</text>
+<path d="M 988.2 520.1 L 1136.3 519.7 Q 1150.8 520.1 1150.2 534.8 L 1149.1 563.1 Q 1150.3 575.8 1136.7 575.5 L 990.1 576.2 Q 974.7 576.6 974.9 561.3 L 975.5 533.0 Q 975.7 519.5 989.3 521.1 Z" fill="#fff3bf" stroke="none" opacity="1.0"/>
+<path d="M 988.2 520.1 L 1136.3 519.7 Q 1150.8 520.1 1150.2 534.8 L 1149.1 563.1 Q 1150.3 575.8 1136.7 575.5 L 990.1 576.2 Q 974.7 576.6 974.9 561.3 L 975.5 533.0 Q 975.7 519.5 989.3 521.1 Z" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 989.1 520.3 L 1135.7 519.2 Q 1149.3 519.5 1150.2 533.9 L 1150.0 562.6 Q 1149.4 575.6 1136.2 575.3 L 988.2 575.8 Q 974.4 575.8 974.6 562.1 L 975.1 533.5 Q 975.2 520.0 988.4 520.7 Z" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="1062.5" y="553.0" font-size="16" fill="#1e1e1e" text-anchor="middle">soft-clDice</text>
+<text x="655" y="603.3" font-size="14" fill="#757575" opacity="1.0">0.5 x each  -  clDice uses 15 soft-erosion iterations</text>
+<path d="M 668.4 624.2 L 870.1 625.3 Q 885.8 625.6 884.8 638.5 L 883.9 671.3 Q 885.1 684.7 871.3 684.9 L 670.0 685.5 Q 654.4 685.9 654.0 671.1 L 654.8 638.4 Q 654.0 625.6 667.9 625.1 Z" fill="#ffc9c9" stroke="none" opacity="1.0"/>
+<path d="M 668.4 624.2 L 870.1 625.3 Q 885.8 625.6 884.8 638.5 L 883.9 671.3 Q 885.1 684.7 871.3 684.9 L 670.0 685.5 Q 654.4 685.9 654.0 671.1 L 654.8 638.4 Q 654.0 625.6 667.9 625.1 Z" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 669.7 624.4 L 870.5 625.2 Q 885.0 625.2 885.5 638.5 L 884.7 670.7 Q 884.3 685.6 871.4 685.3 L 668.2 685.5 Q 655.4 684.9 655.4 670.9 L 654.6 638.4 Q 654.6 624.3 668.7 625.4 Z" fill="none" stroke="#ef4444" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="770.0" y="650.5" font-size="15" fill="#1e1e1e" text-anchor="middle">Frangi threshold</text>
+<text x="770.0" y="668.8" font-size="15" fill="#1e1e1e" text-anchor="middle">Betti-0 err 4872</text>
+<path d="M 890.3 655.5 L 936.3 654.7" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 936.0 655.0 L 924.1 649.7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<path d="M 936.0 655.0 L 924.1 660.3" stroke="#22c55e" stroke-width="2" stroke-linecap="round" fill="none" opacity="1.0"/>
+<rect x="893.9" y="643.1" width="38.2" height="18.9" fill="#ffffff"/>
+<text x="913.0" y="659.8" font-size="14" fill="#22c55e" text-anchor="middle">-98%</text>
+<path d="M 954.1 624.9 L 1136.6 625.1 Q 1149.5 625.3 1151.0 638.4 L 1150.8 669.9 Q 1149.5 684.4 1136.5 686.0 L 954.5 684.6 Q 940.8 684.6 939.4 671.9 L 940.3 639.4 Q 940.4 626.1 953.9 625.7 Z" fill="#b2f2bb" stroke="none" opacity="1.0"/>
+<path d="M 954.1 624.9 L 1136.6 625.1 Q 1149.5 625.3 1151.0 638.4 L 1150.8 669.9 Q 1149.5 684.4 1136.5 686.0 L 954.5 684.6 Q 940.8 684.6 939.4 671.9 L 940.3 639.4 Q 940.4 626.1 953.9 625.7 Z" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 954.3 625.6 L 1135.9 625.3 Q 1150.1 624.7 1149.6 639.2 L 1149.3 671.6 Q 1149.5 684.3 1135.4 685.7 L 953.8 684.4 Q 939.3 684.3 940.3 671.2 L 940.3 639.4 Q 939.3 625.1 953.8 625.5 Z" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+<text x="1045.0" y="650.5" font-size="15" fill="#1e1e1e" text-anchor="middle">LPG-SAM</text>
+<text x="1045.0" y="668.8" font-size="15" fill="#1e1e1e" text-anchor="middle">Betti-0 err 85</text>
+<text x="655" y="713.3" font-size="14" fill="#15803d" opacity="1.0">fewer broken vessel trees, not just more correct pixels</text>
+</svg>
